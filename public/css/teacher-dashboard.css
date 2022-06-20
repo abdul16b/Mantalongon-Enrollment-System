@@ -1,0 +1,9 @@
+ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+ol li a:hover{
+    color:green;
+}
+

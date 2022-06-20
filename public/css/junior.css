@@ -1,0 +1,113 @@
+
+.level {
+    color: white;
+    font-size: 1.1em;
+    position: relative;
+    text-decoration: none;
+    /* padding-left: 2.2em; */
+    display: flex;
+  }
+
+  .level::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000000;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+  }
+  .level:hover::after {
+    width: 100%;
+  }
+
+  /* button for add section*/
+  .addsec{
+    float: right;
+    /* background-image: linear-gradient(#046644 100%, #067658 75%, #05684e 25%); */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .addsec:hover {
+    background-image: white;
+    color: #3e8e41;
+  }
+
+  .label{
+    padding-left: 5px;
+  }
+  span{
+    color: black;
+  }
+
+  #indics{
+    float: right;
+    margin: 10px;
+    width: 100px;
+    font-size: larger;
+  }
+
+
+  /*  */
+#outerWrap {
+  position: relative;
+  z-index: 0;
+  top: 50px;
+  height: 400px;
+  width: 300px;
+  }
+  #layer1 {
+  position: absolute;
+  z-index: 2;
+  background-color:#1B5E20;
+  height: 60px;
+  width: 350px;
+  /* left:15px; */
+  /* border-radius: 12px; */
+  top: 190px;
+  }
+
+  #layer2 {
+  position: absolute;
+  z-index: 1;
+  background-color:#DCEDC8;
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  }
+
+  .text{
+      font-size: 25px;
+      text-decoration: none;
+      color:#DCEDC8;
+  }
+
+  .open{
+      width: 350px;
+      height: 60px;
+  }
+
+  .text:hover{
+      color: white;
+      font-weight: bold;
+  }
+
+  .edit{
+    float: right;
+    padding: 10px;
+    font-size: larger;
+    color: black;
+  }
+
+ #cont{
+
+   background-color: #DCEDC8;
+ }
+
+
